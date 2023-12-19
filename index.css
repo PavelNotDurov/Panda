@@ -1,0 +1,135 @@
+header {
+  background-color: #333; /* Замініть цей колір на той, який вам подобається */
+  height: 20px; /* Задайте висоту полоски за потребою */
+}
+
+.header-bar {
+  height: 10px; /* Задайте висоту полоски за потребою */
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+p {
+  color: #666;
+  line-height: 1.6;
+}
+
+a {
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 600px) {
+  h1,
+  h2 {
+    font-size: 24px;
+  }
+}
+
+/* Cross-Browser Compatibility */
+/* Normalize.css for consistent rendering */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* Ensure proper block-level display of images */
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove default list styling */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Responsive embed container for iframes/videos */
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  height: 0;
+  overflow: hidden;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
+/* Responsive Styles for Footer */
+@media screen and (max-width: 600px) {
+  footer {
+    font-size: 14px;
+  }
+}
